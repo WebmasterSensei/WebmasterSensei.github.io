@@ -1,0 +1,80 @@
+import TextReveal from "@/components/ui/text-reveal";
+export default function Projects({ text = "" }) {
+  return (
+    <div className="h-screen relative flex w-full flex-col md:flex-row  justify-center md:shadow-xl text-white space-x-10">
+      <div className="w-full md:w-1/2 flex flex-col overflow-hidden h-full justify-center p-2">
+       
+        <div className="card m-auto text-gray-300 w-full hover:brightness-90 transition-all cursor-pointer group bg-gradient-to-tl from-gray-900 to-gray-950 hover:from-gray-800 hover:to-gray-950 border-r-2 border-t-2 border-gray-900 m-4 rounded-lg overflow-hidden relative">
+          <div className="px-8 py-10">
+            <div className="bg-orange-500 w-10 h-10 rounded-full rounded-tl-none mb-4 group-hover:-translate-y-1 group-hover:shadow-xl group-hover:shadow-red-900 transition-all"></div>
+            <div className="uppercase font-bold text-xl">CHAMONILLE</div>
+            <div className="text-gray-300 uppercase tracking-widest">
+              NATURAL, OIL
+            </div>
+            <div className="text-gray-400 mt-8">
+              <p className="font-bold">39.00 MLC</p>
+              <p>Perfect everywhere</p>
+            </div>
+          </div>
+
+          <div className="h-2 w-full bg-gradient-to-l via-yellow-500 group-hover:blur-xl blur-2xl m-auto rounded transition-all absolute bottom-0"></div>
+          <div className="h-0.5 group-hover:w-full bg-gradient-to-l  via-yellow-950 group-hover:via-yellow-500 w-[70%] m-auto rounded transition-all"></div>
+        </div>
+      </div>
+      <div className="w-full md:w-1/2 flex flex-col overflow-hidden h-full justify-center p-2">
+        <div className="card m-auto text-gray-300 w-full hover:brightness-90 transition-all cursor-pointer group bg-gradient-to-tl from-gray-900 to-gray-950 hover:from-gray-800 hover:to-gray-950 border-r-2 border-t-2 border-gray-900 m-4 rounded-lg overflow-hidden relative">
+          <div className="px-8 py-10">
+            <div className="bg-orange-500 w-10 h-10 rounded-full rounded-tl-none mb-4 group-hover:-translate-y-1 group-hover:shadow-xl group-hover:shadow-red-900 transition-all"></div>
+            <div className="uppercase font-bold text-xl">CHAMONILLE</div>
+            <div className="text-gray-300 uppercase tracking-widest">
+              NATURAL, OIL
+            </div>
+            <div className="text-gray-400 mt-8">
+              <p className="font-bold">39.00 MLC</p>
+              <p>Perfect everywhere</p>
+            </div>
+          </div>
+
+          <div className="h-2 w-full bg-gradient-to-l via-yellow-500 group-hover:blur-xl blur-2xl m-auto rounded transition-all absolute bottom-0"></div>
+          <div className="h-0.5 group-hover:w-full bg-gradient-to-l  via-yellow-950 group-hover:via-yellow-500 w-[70%] m-auto rounded transition-all"></div>
+        </div>
+      </div>
+      <div className="w-full md:w-1/2 flex flex-col overflow-hidden h-full justify-center p-2">
+        <div className="card m-auto text-gray-300 w-full hover:brightness-90 transition-all cursor-pointer group bg-gradient-to-tl from-gray-900 to-gray-950 hover:from-gray-800 hover:to-gray-950 border-r-2 border-t-2 border-gray-900 m-4 rounded-lg overflow-hidden relative">
+          <div className="px-8 py-10">
+            <div className="bg-orange-500 w-10 h-10 rounded-full rounded-tl-none mb-4 group-hover:-translate-y-1 group-hover:shadow-xl group-hover:shadow-red-900 transition-all"></div>
+            <div className="uppercase font-bold text-xl">CHAMONILLE</div>
+            <div className="text-gray-300 uppercase tracking-widest">
+              NATURAL, OIL
+            </div>
+            <div className="text-gray-400 mt-8">
+              <p className="font-bold">39.00 MLC</p>
+              <p>Perfect everywhere</p>
+            </div>
+          </div>
+
+          <div className="h-2 w-full bg-gradient-to-l via-yellow-500 group-hover:blur-xl blur-2xl m-auto rounded transition-all absolute bottom-0"></div>
+          <div className="h-0.5 group-hover:w-full bg-gradient-to-l  via-yellow-950 group-hover:via-yellow-500 w-[70%] m-auto rounded transition-all"></div>
+        </div>
+      </div>
+      <div className="w-full md:w-1/2 flex flex-col overflow-hidden h-full justify-center p-2">
+        <div className="card m-auto text-gray-300 w-full hover:brightness-90 transition-all cursor-pointer group bg-gradient-to-tl from-gray-900 to-gray-950 hover:from-gray-800 hover:to-gray-950 border-r-2 border-t-2 border-gray-900 m-4 rounded-lg overflow-hidden relative">
+          <div className="px-8 py-10">
+            <div className="bg-orange-500 w-10 h-10 rounded-full rounded-tl-none mb-4 group-hover:-translate-y-1 group-hover:shadow-xl group-hover:shadow-red-900 transition-all"></div>
+            <div className="uppercase font-bold text-xl">CHAMONILLE</div>
+            <div className="text-gray-300 uppercase tracking-widest">
+              NATURAL, OIL
+            </div>
+            <div className="text-gray-400 mt-8">
+              <p className="font-bold">39.00 MLC</p>
+              <p>Perfect everywhere</p>
+            </div>
+          </div>
+
+          <div className="h-2 w-full bg-gradient-to-l via-yellow-500 group-hover:blur-xl blur-2xl m-auto rounded transition-all absolute bottom-0"></div>
+          <div className="h-0.5 group-hover:w-full bg-gradient-to-l  via-yellow-950 group-hover:via-yellow-500 w-[70%] m-auto rounded transition-all"></div>
+        </div>
+      </div>
+    </div>
+  );
+}
