@@ -1,5 +1,5 @@
-import TextReveal from "@/components/ui/text-reveal";
-export default function Projects({ text = "" }) {
+
+export default function Projects() {
   return (
     <div className="h-screen relative flex w-full flex-col md:flex-row  justify-center md:shadow-xl text-white space-x-10">
       <div className="w-full md:w-1/2 flex flex-col overflow-hidden h-full justify-center p-2">

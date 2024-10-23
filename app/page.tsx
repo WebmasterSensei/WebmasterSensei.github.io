@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { Button } from "@/components/magicui/button";
+
 import Header from "@/components/pages/header";
 import Header2 from "@/components/pages/header2";
 import Experties from "@/components/pages/experties";
