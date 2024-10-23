@@ -20,17 +20,18 @@ export default function Header2() {
       <BoxReveal boxColor={"#E4E0E1"} duration={0.7}>
         <div className="mt-10">
           <p>
-          &quot;As a full stack engineer, you&quot;re the architect of innovation,
-            weaving together both front-end elegance and back-end power. Your
-            versatility, from handling complex Laravel workflows to integrating
-            seamless Vue interfaces, makes you a master craftsman, turning
-            challenges into opportunities&quot;
+            &quot;As a full stack engineer, you&quot;re the architect of
+            innovation, weaving together both front-end elegance and back-end
+            power. Your versatility, from handling complex Laravel workflows to
+            integrating seamless Vue interfaces, makes you a master craftsman,
+            turning challenges into opportunities&quot;
           </p>
-       
         </div>
       </BoxReveal>
-
-      <RainbowButton className="mt-10">View On GitHub</RainbowButton>
+      <a href="https://github.com/WebmasterSensei" target='_blank'>
+        {" "}
+        <RainbowButton className="mt-10">View On GitHub</RainbowButton>
+      </a>
     </div>
   );
 }

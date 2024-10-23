@@ -1,7 +1,7 @@
 
 export default function Projects() {
   return (
-    <div className="h-screen relative flex w-full flex-col md:flex-row  justify-center md:shadow-xl text-white space-x-10">
+    <div className="h-screen relative flex w-full flex-col md:flex-row  justify-center md:shadow-xl p-10 text-white">
       <div className="w-full md:w-1/2 flex flex-col overflow-hidden h-full justify-center p-2">
        
         <div className="card m-auto text-gray-300 w-full hover:brightness-90 transition-all cursor-pointer group bg-gradient-to-tl from-gray-900 to-gray-950 hover:from-gray-800 hover:to-gray-950 border-r-2 border-t-2 border-gray-900 m-4 rounded-lg overflow-hidden relative">

@@ -1,4 +1,4 @@
-
+import "../app/css/nav.css";
 import Header from "@/components/pages/header";
 import Header2 from "@/components/pages/header2";
 import Experties from "@/components/pages/experties";
@@ -8,7 +8,7 @@ import Projects from "@/components/pages/projects";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg">
       <div className="h-screen relative flex w-full flex-col md:flex-row  justify-center md:shadow-xl text-white space-x-10">
         <div className="w-full md:w-1/2 flex flex-col overflow-hidden h-full justify-center p-10">
           <Header />

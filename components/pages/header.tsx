@@ -1,23 +1,23 @@
-import background from '../../app/images/gg.png' 
+import background from '../../app/images/fref.png' 
 import kenji from '../../app/images/kenji.png' 
 import Image from "next/image";
 export default function Header() {
   return (
     <div>
       <main>
-        <div className="flex items-center justify-center h-screen">
+        <div className="flex items-center justify-center h-screen relative">
             <Image
-              className="top-5 rotate-12 relative"
+              className="top-5 relative"
               src={background}
               alt="profile"
-              width={600}
+              width={800}
               height={90}
             />
             <Image
-              className="absolute  rounded-full -rotate-6"
+              className="img-k absolute"
               src={kenji}
               alt="profile"
-              width={250}
+              width={300}
               height={90}
             />
         </div>

@@ -8,11 +8,10 @@ export default function Experties() {
     "typescript",
     "javascript",
     "react",
-    "android",
     "html5",
     "css3",
     "laravel",
-    "vue",
+    "vuedotjs",
     "redux",
     "tailwindcss",
     "antdesign",
@@ -28,8 +27,6 @@ export default function Experties() {
     "docker",
     "git",
     "github",
-    "androidstudio",
-    "figma",
   ];
   return (
     <div className="flex z-10 size-full max-w-lg items-center justify-center overflow-hidden rounded-lg pb-20 pt-8 ">

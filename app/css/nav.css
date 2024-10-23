@@ -22,3 +22,16 @@
 .list li{
     list-style-type: none;
 }
+
+.bg{
+    background-image: url('../images/bgpof.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 145vh;
+    background-repeat: no-repeat;
+}
+
+.img-k{
+    border-radius:30%;
+    
+}
