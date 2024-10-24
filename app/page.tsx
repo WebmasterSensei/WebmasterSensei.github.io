@@ -6,6 +6,7 @@ import ExpertiesDescription from "@/components/pages/expdesc";
 import { MarqueeDemo } from "@/components/pages/marque";
 import Projects from "@/components/pages/projects";
 
+
 export default function Home() {
   return (
     <div className="bg">

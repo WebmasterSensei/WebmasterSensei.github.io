@@ -1,6 +1,7 @@
 import BoxReveal from "@/components/ui/box-reveal";
 import SparklesText from "@/components/ui/sparkles-text";
 import { RainbowButton } from "@/components/ui/rainbow-button";
+import { AnimatedShinyTextDemo } from "@/components/pages/shinytext";
 export default function Header2() {
   return (
     <div>
@@ -28,10 +29,17 @@ export default function Header2() {
           </p>
         </div>
       </BoxReveal>
-      <a href="https://github.com/WebmasterSensei" target='_blank'>
-        {" "}
-        <RainbowButton className="mt-10">View On GitHub</RainbowButton>
-      </a>
+      <div className="flex">
+        <div className="mx-5">
+          <a href="https://github.com/WebmasterSensei" target="_blank">
+            {" "}
+            <RainbowButton className="mt-10">View On GitHub</RainbowButton>
+          </a>
+        </div>
+        <div>
+          <AnimatedShinyTextDemo />
+        </div>
+      </div>
     </div>
   );
 }
