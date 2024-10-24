@@ -33,4 +33,5 @@ export default function Experties() {
       <IconCloud iconSlugs={slugs} />
     </div>
   );
+  
 }
