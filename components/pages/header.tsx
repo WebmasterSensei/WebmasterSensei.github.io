@@ -1,4 +1,4 @@
-import background from '../../app/images/fref.png' 
+import background from '../../app/images/file.png' 
 import kenji from '../../app/images/kenji.png' 
 import Image from "next/image";
 export default function Header() {
@@ -7,7 +7,7 @@ export default function Header() {
       <main>
         <div className="flex items-center justify-center h-screen relative">
             <Image
-              className="top-5 relative"
+              className="top-5 rotate-0 relative"
               src={background}
               alt="profile"
               width={800}
