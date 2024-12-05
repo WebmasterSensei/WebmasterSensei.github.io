@@ -71,7 +71,7 @@ export default function Comments() {
             </span>
           </div>
           {comments.map((comment) => (
-            <div className=" dark:bg-gray-800">
+            <div key={comment.id} className=" dark:bg-gray-800">
               <div className=" dark:bg-gray-800 text-white dark:text-gray-200 p-4 antialiased flex">
                 <img
                   className="rounded-full h-8 w-8 mr-2 mt-1 "
