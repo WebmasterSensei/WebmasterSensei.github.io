@@ -5,6 +5,7 @@ import Experties from "@/components/pages/experties";
 import ExpertiesDescription from "@/components/pages/expdesc";
 import { MarqueeDemo } from "@/components/pages/marque";
 import Projects from "@/components/pages/projects";
+import Comments from "@/components/pages/comments";
 
 
 export default function Home() {
@@ -49,6 +50,8 @@ export default function Home() {
         <p className="text-white/50">Some Projects Im Working on</p>
       </div>
       <Projects />
+      
+      <Comments />
     </div>
   );
 }
